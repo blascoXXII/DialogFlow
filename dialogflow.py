@@ -8,9 +8,8 @@ import tensorflow
 import tflearn
 import random
 import json
-import pickle
 
-with open(r"C:\Users\Blasco\Desktop\Chatbot\intents.json") as file:
+with open(r"C:\Users\Blasco\Desktop\Chatbot\dialgos.json") as file:
     data = json.load(file)
 
 words =[]
